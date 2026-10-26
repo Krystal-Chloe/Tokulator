@@ -6,9 +6,9 @@
 
 A native Mac companion for token usage, Codex quota, and the patterns behind your work.
 
-**[Download for Mac](https://github.com/Krystal-Chloe/Tokulator/releases/latest)** &nbsp; / &nbsp; [Release notes](https://github.com/Krystal-Chloe/Tokulator/releases/tag/v0.5.6) &nbsp; / &nbsp; [Report an issue](https://github.com/Krystal-Chloe/Tokulator/issues)
+**[Download for Mac](https://github.com/Krystal-Chloe/Tokulator/releases/latest)** &nbsp; / &nbsp; [Release notes](https://github.com/Krystal-Chloe/Tokulator/releases/tag/v0.5.7) &nbsp; / &nbsp; [Report an issue](https://github.com/Krystal-Chloe/Tokulator/issues)
 
-<sub>macOS 14+ &nbsp; | &nbsp; Apple silicon &nbsp; | &nbsp; Free preview v0.5.6</sub>
+<sub>macOS 14+ &nbsp; | &nbsp; Apple silicon &nbsp; | &nbsp; Free preview v0.5.7</sub>
 
 <br><br>
 
@@ -60,6 +60,8 @@ Choose from nine accent colors, light or dark appearance, and 17 interface langu
 1. Download the application ZIP from **Assets** on the [latest release](https://github.com/Krystal-Chloe/Tokulator/releases/latest).
 2. Extract it and move **Tokulator.app** to **Applications**.
 3. Open Tokulator. Codex is selected by default; Settings lets you add sources and choose appearance, language, or a custom usage folder.
+
+Drag the empty area of the dashboard header to move the window. Buttons, charts and the usage calendar keep their normal interactions.
 
 **Requires an Apple silicon Mac running macOS 14 or later.** This preview is free to try. Future Pro features and pricing have not been announced.
 
