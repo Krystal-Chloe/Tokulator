@@ -6,9 +6,9 @@
 
 A native Mac companion for token usage, Codex quota, and the patterns behind your work.
 
-**[Download for Mac](https://github.com/Krystal-Chloe/Tokulator/releases/latest)** &nbsp; / &nbsp; [Release notes](https://github.com/Krystal-Chloe/Tokulator/releases/tag/v0.5.5) &nbsp; / &nbsp; [Report an issue](https://github.com/Krystal-Chloe/Tokulator/issues)
+**[Download for Mac](https://github.com/Krystal-Chloe/Tokulator/releases/latest)** &nbsp; / &nbsp; [Release notes](https://github.com/Krystal-Chloe/Tokulator/releases/tag/v0.5.6) &nbsp; / &nbsp; [Report an issue](https://github.com/Krystal-Chloe/Tokulator/issues)
 
-<sub>macOS 14+ &nbsp; | &nbsp; Apple silicon &nbsp; | &nbsp; Free preview v0.5.5</sub>
+<sub>macOS 14+ &nbsp; | &nbsp; Apple silicon &nbsp; | &nbsp; Free preview v0.5.6</sub>
 
 <br><br>
 
@@ -29,10 +29,12 @@ A native Mac companion for token usage, Codex quota, and the patterns behind you
 Mini keeps the quota ring and today's tokens above your windows and follows desktop Spaces. Restore the dashboard whenever you need more detail; your previous compact and Pin choices are preserved.
 
 <div align="center">
-<img src="mini-preview.png" alt="The transparent Tokulator Mini overlay shown against synthetic light and dark backgrounds" width="720">
+<img src="desktop-preview.jpg" alt="Tokulator Mini in the lower-right corner of an English demo Mac desktop with Projects, Design, and Archive folders" width="900">
 <br>
-<sub>The same transparent Mini on two generated backgrounds. Fixed white text, a directional shadow, and no screen sampling.</sub>
+<sub>An English demo desktop with the real Mini interface and synthetic usage. Fixed white text, a directional shadow, and no screen sampling.</sub>
 </div>
+
+<sub>Wallpaper: [Unsplash](https://unsplash.com/photos/WD6jyaFrVM8), via the [demo-studio source collection](https://github.com/AlexAnsart/demo-studio/blob/main/skills/film-demo/assets/wallpapers/manifest.json), under the [Unsplash License](https://unsplash.com/license). Cropped and mirrored for this demonstration; no personal desktop or files are shown.</sub>
 
 ### Make it yours.
 
@@ -67,7 +69,7 @@ GitHub's automatic **Source code** downloads contain this repository's documenta
 
 ### Understand your data
 
-- **Codex:** live account quota needs an installed, signed-in Codex and a network connection. Retained local usage can be read offline. Quota describes reported usage windows, not a literal balance of remaining tokens.
+- **Codex:** live account quota needs an installed, signed-in Codex and a network connection. Retained local usage can be read offline, including plain `.jsonl` and Zstandard-compressed `.jsonl.zst` session logs. The decoder is built in: no external tools or manual extraction are needed. Original logs are read-only and are not modified or deleted. Quota describes reported usage windows, not a literal balance of remaining tokens.
 - **History and login are separate:** choosing a usage folder imports retained history; it does not change Codex's login location or select a different Codex account. Local usage can be available before quota has successfully synced.
 - **Claude Code and Gemini CLI:** usage comes from retained local CLI logs. Their website, mobile, account-wide history, and official quota are not connected. The adapters do not read those tools' authentication keys.
 - **Missing stays unknown:** absent or damaged records can leave gaps. Combined views label known subtotals when a source is missing or incomplete. Quota percentages are never added or averaged.
